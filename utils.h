@@ -9,6 +9,8 @@
 #ifndef UTILS_H_
 #define UTILS_H_
 
+#define F_CPU 16000000
+#include <util/delay.h>
 #include <avr/io.h>
 #include <avr/sleep.h>
 #include <avr/interrupt.h>

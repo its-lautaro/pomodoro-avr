@@ -120,25 +120,25 @@
     </ToolchainSettings>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="74HC595.c">
+    <Compile Include="shift_reg.c">
       <SubType>compile</SubType>
     </Compile>
-    <Compile Include="74HC595.h">
+    <Compile Include="shift_reg.h">
       <SubType>compile</SubType>
     </Compile>
-    <Compile Include="DISPLAY.c">
+    <Compile Include="display.c">
       <SubType>compile</SubType>
     </Compile>
-    <Compile Include="DISPLAY.h">
+    <Compile Include="display.h">
       <SubType>compile</SubType>
     </Compile>
     <Compile Include="main.c">
       <SubType>compile</SubType>
     </Compile>
-    <Compile Include="POMODORO.c">
+    <Compile Include="pomodoro.c">
       <SubType>compile</SubType>
     </Compile>
-    <Compile Include="TIMER.c">
+    <Compile Include="pomodoro.h">
       <SubType>compile</SubType>
     </Compile>
     <Compile Include="utils.h">

@@ -1,5 +1,5 @@
 /*
- * _74HC595.h
+ * shift_reg.h
  *
  * Simple shift register driver
  * Created: 11/16/2022 9:15:50 PM
