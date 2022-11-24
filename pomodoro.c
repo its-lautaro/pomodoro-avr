@@ -10,8 +10,8 @@
  */ 
 #include "utils.h"
 
-#define POMODORO 1;
-#define SHORT_BREAK 2;
+#define POMODORO 25;
+#define SHORT_BREAK 5;
 #define LONG_BREAK 15;
 
 static void new_stage();
