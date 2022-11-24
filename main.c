@@ -57,7 +57,7 @@ int main(void)
     while (1) 
     {
 		cli();
-
+		
 		//refresh display
 		if (digit>4){
 			digit=1;
@@ -67,13 +67,7 @@ int main(void)
 		
 		//update countdown
 		if(flag_S & !(flag_P)){
-			//This block makes it so you need 2 presses on the push-button to start the next stage. A first one to stop the buzzer
-			//A second one to unpause the countdown
-			if (flag_B){
-				flag_B=0;
-				flag_P=1;
-			}
-			
+			flag_B=0;
 			flag_S=0;
 			
 			PMDR_Update();
